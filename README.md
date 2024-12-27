@@ -57,26 +57,32 @@ El enfoque principal está en la correcta integración de todos los componentes,
 
 ### **Backend (Django)**
 
-1. Clona este repositorio:
+1    Clona este repositorio:
 
-   ```
+```
    git clone <URL_DEL_REPOSITORIO>
-   ```
+```
 
-2   Navega al directorio backend/:
+2    Navega al directorio backend/:
+
 ```
     cd backend/
 ```
-3   Crea y activa un entorno virtual:
+
+3    Crea y activa un entorno virtual:
+
 ```
     python -m venv venv
     source venv/bin/activate  # En Windows: venv\Scripts\activate
 ```
-4  Instala las dependencias de Python:
+
+4    Instala las dependencias de Python:
+
 ```
     pip install -r requirements.txt
-    ```
+```
 5    Crea un archivo .env en el directorio backend/ con las siguientes variables de configuración para la base de datos:
+
 ```
     DATABASE_NAME=prueba_tecnica
     DATABASE_USER=root
@@ -84,13 +90,17 @@ El enfoque principal está en la correcta integración de todos los componentes,
     DATABASE_HOST=localhost
     DATABASE_PORT=3306
 ```
-6  Asegúrate de que Django lea el archivo .env utilizando python-dotenv. Si no lo tienes instalado, agrégalo a las dependencias con:
+
+6    Asegúrate de que Django lea el archivo .env utilizando python-dotenv. Si no lo tienes instalado, agrégalo a las dependencias con:
+
 ```
     pip install python-dotenv
 ```
-8   Crea la BDD como nombre prueba_tecnica!!!
 
-9   Crea las tablas de la base de datos (si aún no lo has hecho):
+8    Crea la BDD como nombre prueba_tecnica!!!
+
+9    Crea las tablas de la base de datos (si aún no lo has hecho):
+
 ```
     python manage.py makemigrations
     python manage.py migrate
@@ -98,14 +108,19 @@ El enfoque principal está en la correcta integración de todos los componentes,
 
 Frontend (Next.js)
 1    Navega al directorio frontend/:
+
 ```
     cd frontend/
 ```
+
 2    Instala las dependencias de Node.js:
+
 ```
     npm install
 ```
+
 3   Inicia el servidor de desarrollo:
+
 ```
       npm run dev
 ```
