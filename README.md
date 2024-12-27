@@ -63,17 +63,17 @@ El enfoque principal está en la correcta integración de todos los componentes,
    git clone <URL_DEL_REPOSITORIO>
 ```
 
-2    Navega al directorio backend/:
-
-```
-    cd backend/
-```
-
-3    Crea y activa un entorno virtual:
+2    Crea y activa un entorno virtual:
 
 ```
     python -m venv venv
     source venv/bin/activate  # En Windows: venv\Scripts\activate
+```
+
+3    Navega al directorio backend_prueba_tenica/:
+
+```
+    cd backend_prueba_tenica/
 ```
 
 4    Instala las dependencias de Python:
@@ -81,7 +81,7 @@ El enfoque principal está en la correcta integración de todos los componentes,
 ```
     pip install -r requirements.txt
 ```
-5    Crea un archivo .env en el directorio backend/ con las siguientes variables de configuración para la base de datos:
+5    Crea un archivo .env en el directorio backend_prueba_tenica/ con las siguientes variables de configuración para la base de datos:
 
 ```
     DATABASE_NAME=prueba_tecnica
@@ -108,10 +108,10 @@ El enfoque principal está en la correcta integración de todos los componentes,
 
 ### **Frontend (Next.js)**
 
-1    Navega al directorio frontend/:
+1    Navega al directorio frontend_prueba_tenica/:
 
 ```
-    cd frontend/
+    cd frontend_prueba_tenica/
 ```
 
 2    Instala las dependencias de Node.js:
