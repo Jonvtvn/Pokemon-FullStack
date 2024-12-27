@@ -97,16 +97,17 @@ El enfoque principal está en la correcta integración de todos los componentes,
     pip install python-dotenv
 ```
 
-8    Crea la BDD como nombre prueba_tecnica!!!
+7    Crea la BDD como nombre prueba_tecnica!!!
 
-9    Crea las tablas de la base de datos (si aún no lo has hecho):
+8    Crea las tablas de la base de datos (si aún no lo has hecho):
 
 ```
     python manage.py makemigrations
     python manage.py migrate
 ```
 
-Frontend (Next.js)
+### **Frontend (Next.js)**
+
 1    Navega al directorio frontend/:
 
 ```
