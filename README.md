@@ -1,4 +1,4 @@
-# Proyecto Django y Next.js
+# Proyecto Django, Next.js y Mysql
 
 Este proyecto utiliza **Django** para el backend y **Next.js** para el frontend. Django maneja la lógica del servidor, las APIs y la base de datos, mientras que Next.js se encarga de la interfaz de usuario y las rutas del lado del cliente.
 
