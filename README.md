@@ -1,6 +1,6 @@
-# Proyecto Django, Next.js y Mysql
+# Proyecto Fullstack Básico con Django, Next.js y MySQL
 
-Este proyecto utiliza **Django** para el backend y **Next.js** para el frontend. Django maneja la lógica del servidor, las APIs y la base de datos, mientras que Next.js se encarga de la interfaz de usuario y las rutas del lado del cliente.
+Este proyecto es una solución fullstack que utiliza **Django** para el backend y **Next.js** para el frontend. Django se encarga de la lógica del servidor, las APIs y la conexión a la base de datos, mientras que Next.js maneja la interfaz de usuario y las rutas del lado del cliente.
 
 ## 🛠 Requisitos
 
@@ -15,41 +15,41 @@ Asegúrate de tener instalados los siguientes programas:
 
 ## 📋 Objetivo del Proyecto
 
-**Caso de uso alternativo:**
+**Caso de uso práctico:**
 
-Desarrolla una solución completa que incluya:
+Desarrollar una aplicación completa que incluya:
 
-1. **Conexión a una API** (pública o privada).
+1. **Conexión a una API pública o privada.**
 2. **Almacenamiento de datos** en una base de datos MySQL.
-3. **Frontend interactivo** que permita visualizar e interactuar con los datos obtenidos.
-4. **Repositorio en GitHub** con la solución del desafío.
+3. **Frontend interactivo** que permita visualizar e interactuar con los datos.
+4. **Repositorio en GitHub** con el código del proyecto.
 
-El enfoque principal está en la correcta integración de todos los componentes, la claridad del código y la calidad de la solución.
+El enfoque está en la correcta integración entre componentes, claridad del código y funcionalidad general.
 
 ---
 
 ## 🚀 Requisitos del Proyecto
 
 ### 1. Conexión a la API
-- Selecciona una API pública (por ejemplo, OpenWeatherMap, TheMovieDB, o una de tu elección).
-- Consume datos relevantes desde la API (al menos 50 registros).
+- Selecciona una API pública (ej: OpenWeatherMap, TheMovieDB, etc.).
+- Consume al menos 50 registros desde la API.
 
 ### 2. Base de datos
-- Diseña una base de datos en **MySQL** para almacenar los datos obtenidos.
+- Diseña una base de datos en **MySQL** para almacenar los datos.
 - Incluye al menos **dos tablas relacionadas**.
-- Implementa un script para inicializar y poblar la base de datos con los datos de la API.
+- Crea un script para inicializar y poblar la base de datos.
 
 ### 3. Frontend interactivo
-- Construye una interfaz que permita:
-  - Visualizar los datos almacenados en la base de datos.
-  - Filtrar, buscar y ordenar los datos.
-  - Opcionalmente, agregar o actualizar registros directamente desde el frontend.
-- Usa un framework o librería de tu elección (React, Vue.js, Angular, o desarrollo nativo con HTML, CSS y JavaScript).
+- Crea una interfaz que permita:
+  - Visualizar los datos almacenados.
+  - Filtrar, buscar y ordenar los registros.
+  - (Opcional) Agregar o actualizar registros desde el frontend.
+- Usa React, Vue, Angular, o HTML/CSS/JS puro.
 
 ### 4. Backend
-- Desarrolla una API o servicio que sirva como intermediario entre el frontend y la base de datos.
-- Opcionalmente, incluye autenticación básica para proteger el acceso al backend.
-- Puedes usar el lenguaje y framework de tu preferencia (Python con Flask/Django, PHP con Laravel, Node.js con Express, etc.).
+- Desarrolla una API que sirva como intermediario entre el frontend y la base de datos.
+- (Opcional) Implementa autenticación básica.
+- Puedes usar el stack de tu elección: Django, Flask, Laravel, Express, etc.
 
 ---
 
@@ -57,7 +57,7 @@ El enfoque principal está en la correcta integración de todos los componentes,
 
 ### **Backend (Django)**
 
-1    Clona este repositorio:
+1. Clona este repositorio:
 
 ```
    git clone <URL_DEL_REPOSITORIO>
